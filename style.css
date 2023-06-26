@@ -1,4 +1,4 @@
-h3 {
+/*h3 {
   color: rgb(255, 170, 0);
   font-style: italic;
   text-align: center;
@@ -14,16 +14,7 @@ h1 {
   text-align: left;
 }
 
-.skill-container {
-  border: dashed rgb(255, 69, 69);
-  border-radius: 5px;
-  width: 400px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 16px;
-  padding-right: 16px;
-  margin-bottom: 8px;
-}
+
 
 p {
   font-style: italic;
@@ -31,4 +22,22 @@ p {
 
 .card {
   border-radius: 25px;
+}*/
+
+.insrt {
+  border-left: 0cap;
+  width: 5px;
+  height: 5px;
+  border-radius: 50px;
+}
+
+.skill-container {
+  border: groove rgb(109, 224, 226);
+  border-radius: 5px;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-bottom: 8px;
 }
