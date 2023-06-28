@@ -20,15 +20,23 @@
   <body>
     <style>
       body {
-        background-image: url("images/background.avif");
+        background: url(images/background.avif) no-repeat center center/cover;
         background-size: 2000px;
       }
     </style>
-    <div class="d-flex justify-content-center gap-4 fw-bold my-4">
-      <a href="index.html" style="text-decoration: none">Home</a>
-      <a href="experience.html" style="text-decoration: none">Experience</a>
-      <a href="gallerys.html" style="text-decoration: none">Gallaery</a>
-      <a href="contact.html" style="text-decoration: none">Contact me</a>
+    <div
+      class="curs-font d-flex justify-content-center gap-5 fw-bold mb-5 p-3 bg-dark"
+    >
+      <a href="index.html" style="text-decoration: none; color: white">Home</a>
+      <a href="experience.html" style="text-decoration: none; color: white"
+        >Experience</a
+      >
+      <a href="gallerys.html" style="text-decoration: none; color: white"
+        >Gallaery</a
+      >
+      <a href="contact.html" style="text-decoration: none; color: white"
+        >Contact me</a
+      >
     </div>
     <div
       class="d-flex gap-4 align-items-center justify-content-center mx-auto"
@@ -41,7 +49,7 @@
         class="rounded-circle"
         style="object-fit: cover"
       />
-      <div class="d-none d-sm-block">
+      <div class="curs-font d-none d-sm-block">
         <div class="display-4 mb-3">Phurinon Foeythika</div>
         <div class="text-muted d-none d-sm-block">
           Hi, my name is Phurinon Foeythika. I studying at Chiangmai University.
@@ -50,26 +58,30 @@
         </div>
       </div>
     </div>
-    <div class="display-4 d-sm-none text-center my-3">Phurinon Foeythika</div>
-    <p class="text-center fs-4 my-3">Skills</p>
+    <div class="curs-font display-4 d-sm-none text-center my-3">
+      Phurinon Foeythika
+    </div>
+    <p class="curs-font text-center fs-3 my-3">Skills</p>
 
     <div>
       <div
-        class="d-flex bg-light gap-4 p-3 mb-4 shadow-sm"
+        class="curs-font d-flex bg-light gap-3 mb-4 shadow-sm"
         style="
-          border-radius: 20px;
+          border-radius: 15px;
           margin-left: auto;
           margin-right: auto;
           max-width: 700px;
         "
       >
-        <img
-          src="images/coding.jpeg"
-          width="150px"
-          height="150px"
-          class="rounded d-none d-sm-block"
-          style="object-fit: cover; margin-right: auto"
-        />
+        <div class="rounded-left">
+          <img
+            src="images/coding.jpeg"
+            width="150px"
+            height="150px"
+            class="rounded-left d-none d-sm-block"
+            style="object-fit: cover"
+          />
+        </div>
         <div>
           <div class="fs-4 my-3">Programing &#128187;</div>
           <span class="text-muted">
@@ -80,26 +92,27 @@
       </div>
     </div>
     <div
-      class="d-flex bg-light gap-4 p-3 mb-4 shadow-sm"
+      class="curs-font d-flex bg-light gap-3 mb-4 shadow-sm"
       style="
-        border-radius: 20px;
+        border-radius: 15px;
         margin-left: auto;
         margin-right: auto;
         max-width: 700px;
       "
     >
-      <img
-        src="images/sports.jpg"
-        width="150px"
-        height="150px"
-        class="rounded d-none d-sm-block"
-        style="object-fit: cover; margin-right: auto"
-      />
+      <div class="rounded-left">
+        <img
+          src="images/sports.jpg"
+          width="150px"
+          height="150px"
+          class="rounded-left d-none d-sm-block"
+          style="object-fit: cover"
+        />
+      </div>
       <div>
         <div class="fs-4 my-3">Sports &#127942;</div>
         <span class="text-muted"
           >ชอบกีฬาฟุตบอลและเมื่อก่อนเป็นนักกีฬาฟุตบอล
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         </span>
       </div>
     </div>
